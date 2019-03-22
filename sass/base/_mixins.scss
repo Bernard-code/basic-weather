@@ -1,0 +1,13 @@
+/*
+  mixins
+  ------------
+*/
+
+
+@mixin crossBrowser($property, $val){
+  -webkit-#{$property}: $val;
+  -moz-#{$property}: $val;
+  -ms-#{$property}: $val;
+  -o-#{$property}: $val;
+  #{$property}: $val;
+}
