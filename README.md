@@ -1,2 +1,2 @@
 # basic.weather
-Basic weather app
+Basic weather app, created using openweathermap.org API.
